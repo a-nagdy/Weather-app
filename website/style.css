@@ -1,0 +1,112 @@
+body {
+  /* background: linear-gradient(90deg, rgb(41, 41, 106) 0%, rgb(63, 47, 47) 100%); */
+  background: #D3CCE3;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #E9E4F0, #D3CCE3);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #E9E4F0, #D3CCE3);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  color: black;
+}
+
+#app {
+  display: grid;
+  grid-template-rows: 10rem 10rem;
+  justify-content: center;
+}
+
+.holder {
+  justify-content: center;
+  padding: 3em 1em;
+  margin: 0 auto;
+  font-size: 1.5rem;
+  font-family: "Lobster", cursive;
+}
+
+.holder.headline {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+#zip {
+  width: 100%;
+  height: 2rem;
+}
+
+.holder.zip {
+  font-weight: normal;
+}
+
+.holder.feel {
+  font-weight: normal;
+  padding-top: 1rem;
+}
+
+label {
+  display: flex;
+  justify-content: center;
+  padding: 1em 2em;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+input {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+button {
+  color: black;
+  display: flex;
+  width: 100%;
+  height: 2rem;
+  justify-content: center;
+  align-items: center;
+  border-radius: 1em;
+  margin-top: 1rem;
+  padding: 20px;
+}
+
+button:hover {
+  opacity: 50%;
+  background-color: hsl(267, 5%, 57%);
+  color: black;
+
+}
+
+#entryHolder {
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+  padding: 3rem;
+  font-size: 3rem;
+}
+
+.descrption {
+  font-size: 2rem;
+}
+
+#date {
+  padding: 2rem 2rem;
+  font-size: 1.5rem;
+}
+
+#temp {
+  padding: 2rem 2rem;
+  font-size: 1.5rem;
+}
+
+#content {
+  padding: 2rem 2rem;
+  font-size: 1.5rem;
+  max-width: min-content;
+}
